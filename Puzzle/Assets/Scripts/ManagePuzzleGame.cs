@@ -10,7 +10,9 @@ public class ManagePuzzleGame : MonoBehaviour
     bool partesEmbaralhadas = false;
     public Image parte;
     public Image localMarcado;
+    public string imageName = "puzzle1";
     float lmLargura, lmAltura;
+    
 
     void criarLocaisMarcados(){
         lmLargura = 100; lmAltura = 100;
@@ -47,9 +49,9 @@ public class ManagePuzzleGame : MonoBehaviour
                     posicaoCentro.z);
             Image lm = (Image)(Instantiate(parte, lmPosicao, Quaternion.identity));
             lm.tag = "" + (i + 1);
-            lm.name = "leao_" + (i + 1);
+            lm.name = $"{imageName}_" + (i + 1);
             lm.transform.SetParent(GameObject.Find("Canvas").transform);
-            Sprite[] todasSprites = Resources.LoadAll<Sprite>("leao");
+            Sprite[] todasSprites = Resources.LoadAll<Sprite>(imageName);
             Sprite s1 = todasSprites[i];
             lm.GetComponent<Image>().sprite = s1;
         }
@@ -76,7 +78,7 @@ public class ManagePuzzleGame : MonoBehaviour
             coluna = (novoArray[i]) / 5;
             Vector3 posicaoCentro = new Vector3();
             posicaoCentro = GameObject.Find("ladoEsquerdo").transform.position;
-            var g = GameObject.Find("leao_" + (i+1));
+            var g = GameObject.Find($"{imageName}_" + (i+1));
             Vector3 novaPosicao = new Vector3(posicaoCentro.x + lmLargura * (linha - numLinhas /2),
                 posicaoCentro.y - lmAltura * (coluna - numColunas/2),
                 posicaoCentro.z);

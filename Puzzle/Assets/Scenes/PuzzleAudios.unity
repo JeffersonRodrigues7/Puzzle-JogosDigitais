@@ -917,8 +917,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parte: {fileID: 7296346686498702372, guid: a3178a4d94188ef4889a8ed732ae5ff4, type: 3}
-  localMarcado: {fileID: 7398282605095115159, guid: e6203a85fff8dfd4ca43d9189e23b73b,
-    type: 3}
+  localMarcado: {fileID: 7398282605095115159, guid: e6203a85fff8dfd4ca43d9189e23b73b, type: 3}
+  imageName: puzzle1
 --- !u!1 &832575517
 GameObject:
   m_ObjectHideFlags: 0

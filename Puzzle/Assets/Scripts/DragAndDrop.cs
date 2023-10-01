@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class DragAndDrop : MonoBehaviour
 {
+    public string imageName = "puzzle1";
     Vector3 posicaoOriginal;
 
     public void Start() {
@@ -11,7 +12,7 @@ public class DragAndDrop : MonoBehaviour
     }
 
     public void Drag() {
-        GameObject.Find("leao_" + tag).transform.position = Input.mousePosition;
+        GameObject.Find($"{imageName}_" + tag).transform.position = Input.mousePosition;
         print("Arrastando" + gameObject.name);
     }
 

@@ -6,7 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/ImagemToda.unity
+    path: Assets/Scenes/Puzzle1.unity
     guid: b6541ae9cdb09d24c97685be6ed8548e
   - enabled: 1
     path: Assets/Scenes/Abertura.unity
