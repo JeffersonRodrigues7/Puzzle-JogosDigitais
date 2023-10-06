@@ -8,7 +8,6 @@ public class tocadorPlay : MonoBehaviour
 
     public void playPlay(){
         audio2 = GetComponent<AudioSource>();
-        Debug.Log("Tocando áudio play");
         audio2.Play();
     }
 }

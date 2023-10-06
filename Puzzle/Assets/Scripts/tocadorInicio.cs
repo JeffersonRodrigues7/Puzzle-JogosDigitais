@@ -8,7 +8,7 @@ public class tocadorInicio : MonoBehaviour
 
     public void playInicio(){
         audio1 = GetComponent<AudioSource>();
-        Debug.Log("Tocando áudio");
+        //Debug.Log("Tocando áudio");
         audio1.Play();
     }
 }

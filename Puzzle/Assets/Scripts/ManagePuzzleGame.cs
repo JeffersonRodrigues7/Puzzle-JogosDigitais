@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-
 public class ManagePuzzleGame : MonoBehaviour
 {
     float timer;
@@ -13,7 +12,6 @@ public class ManagePuzzleGame : MonoBehaviour
     public string imageName = "puzzle1";
     float lmLargura, lmAltura;
     
-
     void criarLocaisMarcados(){
         lmLargura = 100; lmAltura = 100;
         float numLinhas = 5; float numColunas = 5;
@@ -93,6 +91,8 @@ public class ManagePuzzleGame : MonoBehaviour
 
     public void falaPlay(){
         GameObject.Find("totemPlay").GetComponent<tocadorPlay>().playPlay();
+        GameObject.Find("music").GetComponent<AudioPuzzle>().playPlay();
+        GameObject.Find("TempoRestanteValue").GetComponent<Contador>().StartCountdown();
     }
 
     void Start() {

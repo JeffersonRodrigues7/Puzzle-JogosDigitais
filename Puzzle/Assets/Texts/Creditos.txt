@@ -1,8 +1,15 @@
+-----FONTES-----
 Fonte Narcissus-Roman: https://fontsgeek.com/fonts/Narcissus-Roman
 
-Menu Áudio: Bully Main Theme - Original Introduction (https://www.youtube.com/watch?v=KWef_hQyPKY&ab_channel=BullySongs)
-Tela Inicial Áudio: Bully - Soundtrack Welcome to Bullworth (https://www.youtube.com/watch?v=X2QZiukKGqk&list=PLA528B0C12ED9EEFC&index=2&ab_channel=CanisCanemEditBully)
+-----ÁUDIOS----
+Menu: Bully Main Theme - Original Introduction (https://www.youtube.com/watch?v=KWef_hQyPKY&ab_channel=BullySongs)
+Tela Inicial: Bully - Soundtrack Welcome to Bullworth (https://www.youtube.com/watch?v=X2QZiukKGqk&list=PLA528B0C12ED9EEFC&index=2&ab_channel=CanisCanemEditBully)
+Puzzle 01: Bully - Soundtrack Gym Class (https://www.youtube.com/watch?v=B3ax1EXC-PU&list=PLA528B0C12ED9EEFC&index=12&ab_channel=CanisCanemEditBully)
+Puzzle 02: Bully - Soundtrack Russell in the Hole (https://www.youtube.com/watch?v=flr8V-CeXM0&list=PLA528B0C12ED9EEFC&index=13&ab_channel=CanisCanemEditBully)
+Vutória: Bully OST 112 - Bike Victory (https://www.youtube.com/watch?v=oVLUKk2UDsQ&ab_channel=dmich9)
+Créditos: Bully - Soundtrack Fighting Johnny Vincent (https://www.youtube.com/watch?v=t49wMk97Tkk&list=PLA528B0C12ED9EEFC&index=30&ab_channel=CanisCanemEditBully)
 
+-----IMAGENS-----
 Menu Background: https://en.riotpixels.com/games/bully/wallpapers/
 Tela Inicial Background: https://en.riotpixels.com/games/bully/wallpapers/
 Puzzle Background: https://en.riotpixels.com/games/bully/wallpapers/

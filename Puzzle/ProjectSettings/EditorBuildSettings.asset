@@ -12,15 +12,12 @@ EditorBuildSettings:
     path: Assets/Scenes/Abertura.unity
     guid: cd4665f3260f2f84eb852570d3bac5bc
   - enabled: 1
-    path: Assets/Scenes/BaseScene.unity
-    guid: faf47fcfb8a29c4409caaac8489d2a16
-  - enabled: 1
     path: Assets/Scenes/MenuPrincipal.unity
     guid: c87c57a49e565544f98a436110041787
   - enabled: 1
-    path: Assets/Scenes/PuzzleAudios.unity
-    guid: 0bdae9eb3c742d648a4fb4aca0dda428
+    path: Assets/Scenes/Puzzle2.unity
+    guid: 3e4c9738839adea43a170e2bc742e7c3
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 99c9720ab356a0642a771bea13969a05
+    path: Assets/Scenes/Creditos.unity
+    guid: 44c3905257e9fec4f86676ea51edaf78
   m_configObjects: {}

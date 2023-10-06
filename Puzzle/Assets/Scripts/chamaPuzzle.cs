@@ -13,12 +13,8 @@ public class chamaPuzzle : MonoBehaviour
         t = 0;
     }
 
-    void Update(){
-        print(t);
-        t += Time.deltaTime;
-        if(t > 20 && primeira){
-            primeira =  false;
-            SceneManager.LoadScene("PuzzleAudios");
-        }
+    public void changeToPuzzle()
+    {
+        SceneManager.LoadScene("Puzzle1");
     }
 }
