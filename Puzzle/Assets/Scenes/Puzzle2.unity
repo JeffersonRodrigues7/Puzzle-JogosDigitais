@@ -311,7 +311,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   countdownText: {fileID: 108493654}
-  countdownTime: 140
+  countdownTime: 100
 --- !u!114 &108493654
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -332,7 +332,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 140
+  m_text: 100
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f2b92bab2af42bc489e9efe935d1fd48, type: 2}
   m_sharedMaterial: {fileID: 459961304921323685, guid: f2b92bab2af42bc489e9efe935d1fd48, type: 2}

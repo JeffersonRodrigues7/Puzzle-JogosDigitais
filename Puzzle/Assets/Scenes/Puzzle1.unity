@@ -1698,7 +1698,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 160
+  m_text: 120
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f2b92bab2af42bc489e9efe935d1fd48, type: 2}
   m_sharedMaterial: {fileID: 459961304921323685, guid: f2b92bab2af42bc489e9efe935d1fd48, type: 2}
@@ -1788,7 +1788,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   countdownText: {fileID: 1588138786}
-  countdownTime: 160
+  countdownTime: 120
 --- !u!82 &1588138789
 AudioSource:
   m_ObjectHideFlags: 0
